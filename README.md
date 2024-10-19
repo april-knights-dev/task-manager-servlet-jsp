@@ -22,8 +22,8 @@
 1. リポジトリをクローンします。
 
    ```bash
-   git clone <リポジトリのURL>
-   cd task-manager
+   git clone https://github.com/april-knights-dev/task-manager-servlet-jsp.git
+   cd task-manager-servlet-jsp
    ```
 
 2. Mavenプロジェクトをビルドします。
