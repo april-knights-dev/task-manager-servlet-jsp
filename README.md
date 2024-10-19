@@ -32,11 +32,13 @@
    mvn clean install
    ```
 
-3. 生成されたWARファイルをTomcatの`webapps`ディレクトリに配置します。
+3. 組み込みTomcatを使用してアプリケーションを実行します。
 
-4. Tomcatを起動します。
+   ```bash
+   mvn tomcat7:run
+   ```
 
-5. ブラウザで以下のURLにアクセスします。
+4. ブラウザで以下のURLにアクセスします。
 
    ```
    http://localhost:8080/listTasks.jsp
